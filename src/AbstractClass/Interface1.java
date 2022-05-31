@@ -1,6 +1,5 @@
 package AbstractClass;
 interface Kendaraan{
-    int nilai = 90;
     public void start();
     public void stop();
     
@@ -16,7 +15,7 @@ class Mobil implements Kendaraan{
 
     @Override
     public void stop() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Mobil berhenti");
     }
     
 }
@@ -31,7 +30,7 @@ class Motor implements Kendaraan{
 
     @Override
     public void stop() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Motor berhenti");
     }
     
 }
